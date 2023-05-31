@@ -1,0 +1,4 @@
+.headline {
+  display: flex;
+  flex-wrap: wrap;
+}
