@@ -19,8 +19,9 @@
   font-size: 40px;
   min-width: 327px;
   min-height: 211px;
-  margin-bottom: 15px;
-  margin-top: 63px;
+  margin-bottom: 3.95%;
+  margin-top: 16.8%;
+  overflow-wrap: break-word;
 }
 
 .titleSpan {
@@ -35,11 +36,12 @@
   min-width: 327px;
   min-height: 164px;
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 5%;
+  overflow-wrap: break-word;
 }
 
 .social {
-margin-bottom: 80px;
+margin-bottom: 21%;
 }
 
 .downArrow {
@@ -50,5 +52,6 @@ margin-bottom: 80px;
   border: none;
   height: 50px;
   width: 50px;
+  padding: 0;
 }
 
