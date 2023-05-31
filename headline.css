@@ -1,4 +1,54 @@
+.mainscreen {
+  background-image: url("assets/images/Headline/header-illsutration-mobile@2x.png");    
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 .headline {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
+
+.title {
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+  line-height: 130%;
+  color: rgba(23, 43, 77, 1);
+  font-size: 40px;
+  min-width: 327px;
+  min-height: 211px;
+  margin-bottom: 15px;
+  margin-top: 63px;
+}
+
+.titleSpan {
+  color: rgba(54, 179, 126, 1);
+}
+
+.portafolioInfo {
+  width: 80%;
+  line-height: 140%;
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+  min-width: 327px;
+  min-height: 164px;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.social {
+margin-bottom: 80px;
+}
+
+.downArrow {
+  background-image: url(assets/images/Headline/Disabled.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
