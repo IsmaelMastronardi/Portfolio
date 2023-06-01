@@ -13,15 +13,12 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -71,9 +68,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,12 +108,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
---
-```install this project using git.
-```
----
+Install this project with: git
 
 ### Run tests
 
@@ -142,17 +131,11 @@ Example command:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Ismael Mastronardi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/IsmaelMastronardi)
+- Twitter: [@twitterhandle](https://twitter.com/IsmaMastronardi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ismael-mastronardi-361873271/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
