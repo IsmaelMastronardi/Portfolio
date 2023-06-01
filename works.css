@@ -1,0 +1,78 @@
+.worksSection {
+  display: grid;
+  grid-template-rows: 97px 38px 474px 474px 474px 474px 474px 474px;
+  text-align: center;
+  justify-items: center;
+  gap: 24px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: rgba(23, 43, 77, 1);
+  margin: 0;
+}
+
+.indicatorIcon {
+  justify-content: center;
+}
+
+.project {
+  display: grid;
+  grid-template-rows: 252px 220px;
+  width: 325px;
+  height: 472px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: rgba(235, 240, 238, 1);
+  border-color: rgba(208, 217, 212, 1);
+}
+
+.projectInfo {
+  background-color: white;
+  display: block;
+  border-radius: 8px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.greyProjectButtons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+
+.LinkButton,
+.projectButton {
+  font-family: 'Inter', sans-serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.projectButton {
+  height: 32px;
+  background-color: rgba(235, 240, 238, 1);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.LinkButton {
+  background-color: rgba(54, 179, 127, 1);
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px;
+}
