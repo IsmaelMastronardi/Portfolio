@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
 - Table of Contents
@@ -22,8 +18,6 @@ REQUIRED SECTIONS:
 OPTIONAL SECTIONS:
 - FAQ
 
-After you're finished please remove all the comments and instructions!
--->
 
 
 
@@ -99,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> No live demo link as of yet.
+>
 
 -
 
@@ -115,32 +109,35 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: A code editor, ndoe.js,git ,Lighthouse , Webhint and Stylelint.
 
-<!--
+Example command: 
+  
+--
 Example command:
-
-```sh
- gem install rails
+  npm install -g lighthouse
+  npm install --save-dev hint@7.x
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
- -->
+ 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
+
+--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/IsmaelMastronardi/Portfolio
 ```
---->
+
 
 ### Install
 
-Install this project with:
+Install this project with: git.
 
 <!--
 Example command:
@@ -151,41 +148,21 @@ Example command:
 ```
 --->
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
+npx hint .
+npx stylelint "**/*.{css,scss}"
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,9 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project plese tell me so in my email mastronardiismael@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,25 +212,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank Andoh Francis for helping me through some issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
