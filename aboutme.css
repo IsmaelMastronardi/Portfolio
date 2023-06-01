@@ -1,0 +1,31 @@
+.aboutMeSection {
+  display: grid;
+  grid-template-rows: 48px 194px 48px;
+  gap: 24px;
+  text-align: center;
+  justify-items: center;
+  margin-top: 68px;
+  margin-bottom: 59px;
+}
+
+.aboutMeInfo {
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+  width: 351px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.getResumeButton {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(54, 179, 127, 1);
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px;
+}
