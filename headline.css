@@ -40,10 +40,6 @@
   overflow-wrap: break-word;
 }
 
-.social {
-  margin-bottom: 21%;
-}
-
 .downArrow {
   background-image: url(assets/images/Headline/Disabled.png);
   background-position: center;
@@ -53,4 +49,17 @@
   height: 50px;
   width: 50px;
   padding: 0;
+}
+
+.socialMediaIcons {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 5.4%;
+  margin-bottom: 21%;
+}
+
+.mediumIcon {
+  margin-top: 4px;
 }
