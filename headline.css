@@ -42,13 +42,14 @@
 
 .downArrow {
   background-image: url(assets/images/Headline/Disabled.png);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-color: white;
   border: none;
-  height: 50px;
-  width: 50px;
+  height: 43px;
+  width: 43px;
   padding: 0;
+  margin-bottom: 63px;
 }
 
 .socialMediaIcons {
