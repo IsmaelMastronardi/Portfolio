@@ -4,6 +4,7 @@
   align-items: center;
   text-align: center;
   margin-top: 20px;
+  justify-content: center;
 }
 
 /* )
@@ -62,7 +63,17 @@ background image.
   background-color: rgba(0, 133, 82, 1);
 }
 
-.languagesSection {
+.technologyList {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.techItem {
   width: 85%;
   height: 316px;
   margin-top: 24px;
@@ -98,8 +109,6 @@ background image.
 }
 
 .aboutMeListButtons {
-  flex: 1;
-  height: 40px;
   color: rgba(54, 179, 126, 1);
   background-color: white;
   font-family: 'Inter', sans-serif;

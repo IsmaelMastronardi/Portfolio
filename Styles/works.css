@@ -58,10 +58,12 @@ h2 {
   gap: 15px;
   margin-bottom: 29px;
   padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 .LinkButton,
-.projectButton {
+.projectListItems {
   font-family: 'Inter', sans-serif;
   padding-left: 12px;
   padding-right: 12px;
@@ -69,19 +71,20 @@ h2 {
   border-radius: 4px;
 }
 
-.projectButton {
-  height: 32px;
+.projectListItems {
+  height: 25px;
+  padding-top: 7px;
   background-color: rgba(235, 240, 238, 1);
   font-weight: 600;
   font-size: 12px;
   transition: 0.15px;
 }
 
-.projectButton:hover {
+.projectListItems:hover {
   box-shadow: 0 6px 12px rgba(149, 163, 155, 0.26);
 }
 
-.projectButton:active {
+.projectListItems:active {
   background-color: rgba(54, 179, 127, 1);
   color: white;
 }
