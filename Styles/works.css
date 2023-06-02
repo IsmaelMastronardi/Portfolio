@@ -2,6 +2,7 @@
   display: grid;
   width: 100%;
   grid-template-rows: 97px 38px repeat(6, 474px);
+  grid-template-columns: 1fr;
   text-align: center;
   justify-items: center;
   gap: 24px;
@@ -21,7 +22,6 @@ h2 {
 }
 
 .project {
-  width: 85%;
   display: flex;
   flex-direction: column;
   border-style: solid;

@@ -71,10 +71,11 @@ background image.
   list-style-type: none;
   width: 100%;
   padding: 0;
+  gap: 20px;
 }
 
 .techItem {
-  width: 85%;
+  width: 327px;
   height: 316px;
   margin-top: 24px;
   background-color: rgba(235, 240, 238, 1);
