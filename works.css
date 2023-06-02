@@ -54,7 +54,8 @@ h2 {
 
 .greyProjectButtons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
   margin-bottom: 29px;
   padding: 0;
 }
@@ -73,6 +74,16 @@ h2 {
   background-color: rgba(235, 240, 238, 1);
   font-weight: 600;
   font-size: 12px;
+  transition: 0.15px;
+}
+
+.projectButton:hover {
+  box-shadow: 0 6px 12px rgba(149, 163, 155, 0.26);
+}
+
+.projectButton:active {
+  background-color: rgba(54, 179, 127, 1);
+  color: white;
 }
 
 .LinkButton {
