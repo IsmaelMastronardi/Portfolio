@@ -81,4 +81,13 @@ h2 {
   font-weight: 500;
   font-size: 17px;
   padding: 12px;
+  transition: 0.15s;
+}
+
+.LinkButton:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.LinkButton:active {
+  background-color: rgba(0, 133, 82, 1);
 }
