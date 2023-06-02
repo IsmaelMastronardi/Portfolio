@@ -1,22 +1,29 @@
 .aboutMeSection {
-  display: grid;
-  grid-template-rows: 48px 194px 48px;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  justify-items: center;
-  margin-top: 68px;
-  margin-bottom: 59px;
+  margin-top: 20px;
 }
 
-.aboutMeInfo {
+.aboutMeTitle {
+  font-family: 'Inter', sans-serif;
+  color: rgba(23, 43, 77, 1);
+  font-size: 40px;
+  min-width: 327px;
+  margin-bottom: 6.3%;
+}
+
+.infoAboutMe {
+  flex: 1;
+  width: 80%;
+  line-height: 140%;
   color: rgba(23, 43, 77, 1);
   font-size: 20px;
-  width: 351px;
+  min-width: 327px;
+  min-height: 164px;
   margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 32px;
+  margin-bottom: 5%;
 }
 
 .getResumeButton {
@@ -27,5 +34,55 @@
   color: white;
   font-weight: 500;
   font-size: 17px;
+  padding: 12px;
+  flex: 1;
+}
+
+.languagesSection {
+  width: 85%;
+  height: 316px;
+  margin-top: 50px;
+  background-color: rgba(235, 240, 238, 1);
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(193, 199, 208, 1);
+}
+
+.languaguesTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: 'Inter', sans-serif;
+  margin-top: -20px;
+  margin-bottom: 0;
+}
+
+.languagesIcon {
+  margin-top: 40px;
+}
+
+.languagesList {
+  flex: 1;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.aboutMeListButtons {
+  flex: 1;
+  height: 40px;
+  color: rgba(54, 179, 126, 1);
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  border-width: 0;
+  border-radius: 10px;
   padding: 12px;
 }
