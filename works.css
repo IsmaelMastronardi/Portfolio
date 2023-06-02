@@ -1,6 +1,7 @@
 .worksSection {
   display: grid;
-  grid-template-rows: 97px 38px 474px 474px 474px 474px 474px 474px;
+  width: 100%;
+  grid-template-rows: 97px 38px repeat(6, 474px);
   text-align: center;
   justify-items: center;
   gap: 24px;
@@ -20,10 +21,9 @@ h2 {
 }
 
 .project {
-  display: grid;
-  grid-template-rows: 252px 220px;
-  width: 325px;
-  height: 472px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
   border-style: solid;
   border-radius: 8px;
   border-width: 1px;
@@ -31,9 +31,15 @@ h2 {
   border-color: rgba(208, 217, 212, 1);
 }
 
+.projectPicture {
+  flex: 1;
+  background-color: rgba(235, 240, 238, 1);
+  border-radius: 8px;
+}
+
 .projectInfo {
+  flex: 1;
   background-color: white;
-  display: block;
   border-radius: 8px;
 }
 
@@ -47,10 +53,10 @@ h2 {
 }
 
 .greyProjectButtons {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
   justify-content: space-between;
   margin-bottom: 29px;
+  padding: 0;
 }
 
 .LinkButton,
