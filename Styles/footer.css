@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 31px;
+  gap: 29px;
+}
+
+.myGmail {
+  font-family: 'Inter', sans-serif;
+  color: rgba(23, 43, 77, 1);
+  font-size: 20px;
+}
