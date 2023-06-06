@@ -168,7 +168,7 @@ If you like this project plese support it through my email mastronardiismael@gma
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Andoh Francis for helping me with some issues
+I would like to thank Andoh Francis for helping me with some issues and El Mehdi Ahmidou who helped me with the css for the form.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
