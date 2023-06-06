@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Styles/general.css">
     <link rel="stylesheet" href="Styles/works.css">
     <link rel="stylesheet" href="Styles/aboutme.css">
+    <link rel="stylesheet" href="Styles/form.css">
     <link rel="preconnect" href="Styles/https://fonts.googleapis.com">
     <link rel="preconnect" href="Styles/https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -329,6 +330,28 @@
                     </ul>
                 </li>
             </ul>
+        </section>
+        <section>
+            <h2 class="formTitle">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+            <form action="https://formspree.io/f/xnqykbkb" method="post" class="form">
+                <ul class="formList">
+                    <li class="formItem">
+                        <label for="name"></label>
+                        <input type="text" name="userName" id="name" class="formName" required placeholder="Full name" maxlength="30">
+                    </li>
+                    <li class="formItem">
+                        <label for="mail"></label>
+                        <input type="email" name="userEmail" id="mail" class="formEmail" required placeholder="Email address">
+                    </li>
+                    <li class="formItem">
+                        <label for="text"></label>
+                        <textarea name="userText" id="text" class="formText" required placeholder="Hey I’d like to connect to..." maxlength="500"></textarea>
+                    </li>
+                    <li class="formItem">
+                        <button type="submit" class="formButton">Get in touch</button>
+                    </li>
+                </ul>
+            </form>
         </section>
     </main>
 </body>
