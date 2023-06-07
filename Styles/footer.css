@@ -2,8 +2,10 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 31px;
   gap: 29px;
+  background-image: url(../assets/images/footer/Frame.png);
+  background-repeat: no-repeat;
+  background-position: 100% -80px;
 }
 
 .myGmail {

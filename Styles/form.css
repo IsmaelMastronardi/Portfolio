@@ -22,6 +22,9 @@ form {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-image: url(../assets/images/footer/Frame.png);
+  background-repeat: no-repeat;
+  background-position: 100% 318px;
 }
 
 .formList {
@@ -33,9 +36,14 @@ form {
   margin: 0;
 }
 
+.formItem2,
 .formItem {
   padding: 0;
   margin: 0;
+}
+
+.formItem2 {
+  height: 75px;
 }
 
 .formName,
