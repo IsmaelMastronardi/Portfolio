@@ -16,6 +16,7 @@
   align-self: center;
   color: #172b4d;
   width: 80%;
+  max-width: 328px;
 }
 
 .formBreak {
@@ -24,6 +25,7 @@
 
 form {
   width: 100%;
+  max-width: 566px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -120,13 +122,57 @@ form {
   background-color: rgba(0, 133, 82, 1);
 }
 
+.formImgDiv,
+.formImgDivB,
+.formImgDivC {
+  position: absolute;
+  width: 100%;
+}
+
+.formImgDesktopA,
+.formImgDesktopB,
+.formImgDesktopC {
+  width: 0;
+  height: 0;
+}
+
 @media only screen and (min-width: 768px) {
+  .formImgDesktopA,
+  .formImgDesktopB,
+  .formImgDesktopC {
+    width: 150px;
+    height: auto;
+  }
+
+  .formImgDesktopA {
+    margin-top: 220px;
+    float: left;
+  }
+
+  .formImgDesktopB {
+    margin-left: 300px;
+    margin-top: 350px;
+  }
+
+  .formImgDesktopC {
+    margin-top: 150px;
+    float: right;
+  }
+
+  .formImgDiv,
+  .formImgDivB,
+  .formImgDivC {
+    position: absolute;
+    width: 100%;
+  }
+
   .formSection {
     flex-direction: row;
     gap: 0;
     width: 87%;
     margin-right: 6.5%;
     margin-left: 6.5%;
+    margin-bottom: 300px;
   }
 
   .formTitle {
@@ -152,11 +198,23 @@ form {
 }
 
 @media only screen and (min-width: 1027px) {
-  .formList {
-  }
-
   .formName,
   .formEmail {
     width: 94.3%;
   }
+
+  .formTitle {
+    margin-right: 80px;
+  }
+
+  .formImgDesktopA,
+  .formImgDesktopB,
+  .formImgDesktopC {
+    width: 200px;
+  }
+
+  .formImgDesktopC {
+    margin-top: 120px;
+  }
+
 }
