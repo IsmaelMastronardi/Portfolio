@@ -109,7 +109,7 @@
   }
 
   .title {
-    margin-top: 120px;
+    margin-top: 40px;
     min-height: 0;
     min-width: 0;
     height: 112px;
@@ -150,5 +150,9 @@
 @media only screen and (min-width: 1100px) {
   .mainscreen {
     height: 1100px;
+  }
+
+  .title {
+    margin-top: 120px;
   }
 }
