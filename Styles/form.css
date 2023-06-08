@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   margin-top: 45px;
+  justify-content: center;
 }
 
 .formTitle {
@@ -15,16 +16,20 @@
   align-self: center;
   color: #172b4d;
   width: 80%;
+  max-width: 328px;
+}
+
+.formBreak {
+  display: none;
 }
 
 form {
   width: 100%;
+  max-width: 566px;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url(../assets/images/footer/Frame.png);
-  background-repeat: no-repeat;
-  background-position: 100% 318px;
+  align-self: center;
 }
 
 .formList {
@@ -65,7 +70,9 @@ form {
   color: #6b778c;
 }
 
-.formText {
+.formText,
+.formTextB,
+.formTextC {
   padding: 12px;
   border: 1px solid #60c095;
   border-radius: 4px;
@@ -73,6 +80,11 @@ form {
   line-height: 24px;
   font-weight: 400;
   font-size: 15px;
+}
+
+.formText {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .formName:focus,
@@ -109,4 +121,99 @@ form {
 
 .formButton:active {
   background-color: rgba(0, 133, 82, 1);
+}
+
+.formImgDiv,
+.formImgDivB,
+.formImgDivC {
+  position: absolute;
+  width: 100%;
+}
+
+.formImgDesktopA,
+.formImgDesktopB,
+.formImgDesktopC {
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .formSection {
+    flex-direction: row;
+    gap: 0;
+    width: 87%;
+    margin-right: 6.5%;
+    margin-left: 6.5%;
+    margin-bottom: 300px;
+  }
+
+  .formTitle {
+    font-size: 25px;
+    align-self: auto;
+    padding-top: 40px;
+    min-width: 386px;
+  }
+
+  .formBreak {
+    display: initial;
+  }
+
+  .formList {
+    width: 100%;
+  }
+
+  .formName,
+  .formEmail {
+    width: 91%;
+  }
+
+  .formImgDesktopA,
+  .formImgDesktopB,
+  .formImgDesktopC {
+    width: 150px;
+    height: auto;
+  }
+
+  .formImgDesktopA {
+    margin-top: 220px;
+    float: left;
+  }
+
+  .formImgDesktopB {
+    margin-left: 300px;
+    margin-top: 350px;
+  }
+
+  .formImgDesktopC {
+    margin-top: 150px;
+    float: right;
+  }
+
+  .formImgDiv,
+  .formImgDivB,
+  .formImgDivC {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1027px) {
+  .formName,
+  .formEmail {
+    width: 94.3%;
+  }
+
+  .formTitle {
+    margin-right: 80px;
+  }
+
+  .formImgDesktopA,
+  .formImgDesktopB,
+  .formImgDesktopC {
+    width: 200px;
+  }
+
+  .formImgDesktopC {
+    margin-top: 120px;
+  }
 }
