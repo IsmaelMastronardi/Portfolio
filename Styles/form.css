@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   margin-top: 45px;
+  justify-content: center;
 }
 
 .formTitle {
@@ -15,6 +16,10 @@
   align-self: center;
   color: #172b4d;
   width: 80%;
+}
+
+.formBreak {
+  display: none;
 }
 
 form {
@@ -109,4 +114,33 @@ form {
 
 .formButton:active {
   background-color: rgba(0, 133, 82, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .formSection {
+    flex-direction: row;
+    gap: 0;
+    width: 87%;
+    margin-right: 6.5%;
+    margin-left: 6.5%;
+}
+
+  .formTitle {
+    font-size: 25px;
+    align-self: auto;
+    padding-top: 40px;
+  }
+
+  .formBreak {
+    display: initial;
+  }
+
+  .formList {
+    width: 100%;
+  }
+
+  .formName,
+  .formEmail {
+    width: 540px;
+  }
 }
