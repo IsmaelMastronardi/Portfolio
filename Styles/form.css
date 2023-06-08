@@ -27,9 +27,6 @@ form {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url(../assets/images/footer/Frame.png);
-  background-repeat: no-repeat;
-  background-position: 100% 318px;
 }
 
 .formList {
@@ -70,7 +67,9 @@ form {
   color: #6b778c;
 }
 
-.formText {
+.formText,
+.formTextB,
+.formTextC {
   padding: 12px;
   border: 1px solid #60c095;
   border-radius: 4px;
@@ -78,6 +77,11 @@ form {
   line-height: 24px;
   font-weight: 400;
   font-size: 15px;
+}
+
+.formText {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .formName:focus,
@@ -123,12 +127,13 @@ form {
     width: 87%;
     margin-right: 6.5%;
     margin-left: 6.5%;
-}
+  }
 
   .formTitle {
     font-size: 25px;
     align-self: auto;
     padding-top: 40px;
+    min-width: 386px;
   }
 
   .formBreak {
@@ -141,6 +146,17 @@ form {
 
   .formName,
   .formEmail {
-    width: 540px;
+    width: 91%;
+  }
+
+}
+
+@media only screen and (min-width: 1027px) {
+  .formList {
+  }
+
+  .formName,
+  .formEmail {
+    width: 94.3%;
   }
 }

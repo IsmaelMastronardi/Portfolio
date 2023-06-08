@@ -3,15 +3,22 @@ footer {
   flex-direction: column;
   text-align: center;
   gap: 29px;
-  background-image: url(../assets/images/footer/Frame.png);
-  background-repeat: no-repeat;
-  background-position: 100% -80px;
 }
 
 .myGmail {
   font-family: 'Inter', sans-serif;
   color: rgba(23, 43, 77, 1);
   font-size: 20px;
+}
+
+.footerImgDiv {
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+}
+
+.footerImgA {
+  float: right;
 }
 
 @media only screen and (min-width: 768px) {

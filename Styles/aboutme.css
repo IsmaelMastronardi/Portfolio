@@ -7,13 +7,89 @@
   justify-content: center;
 }
 
-/* )
-for this background, I used the same as in the headline, because in the template you cannot export the
-background image.
-( */
+.imgDivB,
+.imgDiv {
+  position: absolute;
+  width: 100%;
+}
+
+.imgDiv {
+  margin-top: 250px;
+}
+
+.imgDivB {
+  margin-top: -50px;
+}
+
+.aboutMeImgB {
+  float: right;
+}
+
+.aboutMeImgA {
+  float: left;
+}
+
+.aboutMeImgADesktopB,
+.aboutMeImgADesktop {
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutMeSection {
+    margin-top: 200px;
+  }
+
+  .imgDiv {
+    margin-top: 250px;
+  }
+
+  .imgDivB {
+    margin-top: -40px;
+  }
+
+  .aboutMeImgB,
+  .aboutMeImgA {
+    display: none;
+  }
+
+  .aboutMeImgADesktop {
+    width: 150px;
+    height: auto;
+    float: left;
+  }
+
+  .aboutMeImgADesktopB {
+    width: 150px;
+    height: auto;
+    float: right;
+  }
+
+  .infoAboutMe {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+    .imgDiv {
+    margin-top: 150px;
+  }
+
+  .imgDivB {
+    margin-top: -90px;
+  }
+
+  .aboutMeImgADesktop {
+    width: 200px;
+  }
+
+  .aboutMeImgADesktopB {
+    width: 200px;
+  }
+
+}
+
 .aboutMeArticle {
-  background-image: url("../assets/images/Headline/header-illsutration-mobile@2x.png");
-  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
