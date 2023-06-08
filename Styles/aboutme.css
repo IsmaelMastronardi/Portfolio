@@ -99,7 +99,7 @@
 }
 
 .aboutMeTitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgba(23, 43, 77, 1);
   font-size: 40px;
   min-width: 327px;
@@ -119,7 +119,7 @@
 }
 
 .getResumeButton {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
   border-radius: 4px;
   background-color: rgba(54, 179, 127, 1);
@@ -165,13 +165,19 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: -20px;
   margin-bottom: 0;
 }
 
 .languagesIcon {
   margin-top: 40px;
+}
+
+.languagesIcon:hover {
+  margin-top: 0;
+  margin-bottom: 40px;
+  transform: rotate(3.142rad);
 }
 
 .languagesList {
@@ -188,7 +194,7 @@
 .aboutMeListButtons {
   color: rgba(54, 179, 126, 1);
   background-color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   line-height: 16px;
   font-weight: 600;
