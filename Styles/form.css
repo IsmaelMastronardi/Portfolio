@@ -138,35 +138,6 @@ form {
 }
 
 @media only screen and (min-width: 768px) {
-  .formImgDesktopA,
-  .formImgDesktopB,
-  .formImgDesktopC {
-    width: 150px;
-    height: auto;
-  }
-
-  .formImgDesktopA {
-    margin-top: 220px;
-    float: left;
-  }
-
-  .formImgDesktopB {
-    margin-left: 300px;
-    margin-top: 350px;
-  }
-
-  .formImgDesktopC {
-    margin-top: 150px;
-    float: right;
-  }
-
-  .formImgDiv,
-  .formImgDivB,
-  .formImgDivC {
-    position: absolute;
-    width: 100%;
-  }
-
   .formSection {
     flex-direction: row;
     gap: 0;
@@ -196,6 +167,34 @@ form {
     width: 91%;
   }
 
+  .formImgDesktopA,
+  .formImgDesktopB,
+  .formImgDesktopC {
+    width: 150px;
+    height: auto;
+  }
+
+  .formImgDesktopA {
+    margin-top: 220px;
+    float: left;
+  }
+
+  .formImgDesktopB {
+    margin-left: 300px;
+    margin-top: 350px;
+  }
+
+  .formImgDesktopC {
+    margin-top: 150px;
+    float: right;
+  }
+
+  .formImgDiv,
+  .formImgDivB,
+  .formImgDivC {
+    position: absolute;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1027px) {
@@ -217,5 +216,4 @@ form {
   .formImgDesktopC {
     margin-top: 120px;
   }
-
 }

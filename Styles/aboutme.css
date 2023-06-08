@@ -71,7 +71,7 @@
 }
 
 @media only screen and (min-width: 1140px) {
-    .imgDiv {
+  .imgDiv {
     margin-top: 150px;
   }
 
@@ -86,7 +86,6 @@
   .aboutMeImgADesktopB {
     width: 200px;
   }
-
 }
 
 .aboutMeArticle {
