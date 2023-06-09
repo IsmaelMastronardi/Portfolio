@@ -60,10 +60,23 @@
   gap: 20px;
   margin-bottom: 21%;
   margin-top: 0;
+  height: 30px;
 }
 
 .mediumIcon {
   margin-top: 4px;
+}
+
+.socialMediaListItem {
+  width: 30px;
+}
+
+.mediumIcon:hover {
+  height: 22px;
+}
+
+.socialMediaImg:hover {
+  height: 26px;
 }
 
 .desktopNav {
@@ -137,7 +150,11 @@
   }
 
   .socialMediaIcons {
-    margin-bottom: 74px;
+    margin-bottom: 0;
+  }
+
+  .downArrow {
+    margin-top: 74px;
   }
 }
 
