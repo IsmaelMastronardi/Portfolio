@@ -63,19 +63,20 @@
   height: 30px;
 }
 
-.socialMediaListItem{
-width: 30px;
+.mediumIcon {
+  margin-top: 4px;
+}
+
+.socialMediaListItem {
+  width: 30px;
 }
 
 .mediumIcon:hover {
   height: 22px;
 }
+
 .socialMediaImg:hover {
   height: 26px;
-}
-
-.mediumIcon {
-  margin-top: 4px;
 }
 
 .desktopNav {
