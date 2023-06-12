@@ -68,7 +68,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Coming soon!]
+- [https://ismaelmastronardi.github.io/Portfolio/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
